@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <titile> Sign Up </titile>
+    
+    <link rel="icon" type="image/" href="">
+    
+    <meta name="keywords" content="html, css, sneakers, sneaker news, shoes, hyper sneakers, hs,">
+        
+        <link rel="stylesheet" href="Home.css" >
+        
+    <style>
+         body {
+;               background-color: black;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .left {
+                border: solid;
+                height;auto;
+                background-color: aliceblue;
+            }
+    
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                font-family: sans-serif;
+            }
+
+            li {
+                float: left;
+            }
+
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+            
+            .right {
+                width:60%;
+                border: solid;
+                float:left;
+                margin-right: 5%;
+                height:auto;
+            }
+            
+            .right h2 {
+                text-align: center;
+                font-family: consolas;
+                color: aliceblue;
+            }
+            
+            .story p {
+                text-align: justify;
+                float: right;
+                color: aliceblue;
+                font-family: sans-serif;
+            }
+            
+            footer {
+                clear: both;
+                border:solid;
+                border-color: darkgray;
+                width:90%
+                text-align: center;
+                margin auto;
+                color:aliceblue;
+                border-radius: 15px;
+                background-color: darkslategray;
+                text-align: center;
+            }
+            
+            .section {
+                border: solid white;
+                clear: both;
+                width: 80%;
+                height: 200px;  
+                margin-left: 60px;
+                border-radius: 15px;
+            }   
+            
+            .article {
+                border: solid 1px white;
+                height: 100%;
+                width: 22%;
+                float: left;
+                margin: 0% 1.4%;
+                border-radius: 15px;
+                
+            }
+            
+            .article img {
+                height: 200px;
+                width: 100%;
+            }
+             
+             .section2 {
+                 color:aliceblue;
+                 border: solid 3px white;
+                 margin: auto;
+                 border-radius: 20px;
+             } 
+             
+             .section2  h2{
+                 text-align: center;
+                 font-family: sans-serif;
+                 color: aliceblue;
+             }
+            
+             .section2 p {
+                 text-align: justify;
+                 padding: 0px 10px;
+             }
+            
+            .gamesintro h2 {
+                position: relative;
+                left:12%;
+                top: 35%;
+                font-size: 30px;
+                color:aliceblue;
+            }
+            
+            .gamesintro img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .gamesintro {
+                height: 400px;
+                width: 80%;
+                margin: auto;
+                clear: both;
+                margin-bottom: 100px;
+            }
+            
+            .gameplay {
+                border: solid;
+                height: 500px;
+                width 80%;
+                margin: auto;
+                color:aliceblue;
+            }
+        
+        form {
+            color: white;
+            clear:both;
+            margin-top: 20px;
+        }
+            
+            
+        </style>
+    </head>    
+    <body>
+     <div class="left">
+            
+            <ul>
+              <div class="home">
+              <li><a href="Home%20for%20Hyper%20Sneaker.html">Home</a></li></div>
+              <li><a href="Sneaker%20News.html">Sneaker News</a></li>
+              <li><a href="#Sneaker Calendar">Sneaker Calendar</a></li>
+              <li style="float:right"><a class="active" href="#about">Sign Up</a></li>
+            </ul>
+        </div>
+        
+        <form action="" method="get">
+            <fieldset>
+                <legend> Submit your details for volunteering </legend>
+                
+                Full Name: <input type="text" name="name">   <br>
+                Mobile:    <input type="text" name="mobile"> <br>
+                Email:     <input type="text" name="email">  <br>
+                Age:       <input type="text" name="age">    <br>
+                Employer:  <input type="text" name="work">   <br> <br> \a
+                Employer
+                Address:   <textarea rows="4" cols="50"> </textarea> <br>
+                
+                Gender:    <input type="radio" name="gender" value="M">  Male
+                           <input type="radio" name="gender" value="F"> Female 
+                e
+                <br> <br>
+                
+                Area of Interest: <select id="myList">
+                                        <option value="1"> Recyling </option>
+                                        <option value="2"> Deforestation </option>
+                                        <option value="3"> Ocean Pollution </option>
+                                        <option value="4"> Air Pollution </option>
+                                        <option value="5"> MrBeast Tree Planting </option> <br>
+                                  </select> <br> <br>
+                
+                Highest Qualifications: <input type="radio" name="qual" value="JC"> Junior Cert <br>
+                                        <input type="radio" name="qual" value="LC"> Leaving Cert <br>
+                                        <input type="radio" name="qual" value="DG"> Degree <br>
+                                        <input type="radio" name="qual" value="M"> Masters <br>
+                                        <input type="radio" name="qual" value="D"> Doctor <br> 
+        Other (Please Specify):         <input type="text"  name="qual" value=""> <br>
+                
+                <br> 
+            
+                Please select which area(s) you would like to volunteer in:
+                <br>
+                                        <input type="checkbox" name="area" value=""> Paris <br>
+                                        <input type="checkbox" name="area" value=""> New York <br>
+                                        <input type="checkbox" name="area" value=""> Tokyo <br>
+                                        <input type="checkbox" name="area" value=""> Moskow <br>
+                                        <input type="checkbox" name="area" value=""> Madrid <br>
+                                        <input type="checkbox" name="area" value=""> London <br>
+                                        <input type="checkbox" name="area" value=""> Beijng <br>
+                
+                Start Date: <input type="date" name="startDate"> <br>
+                <input type="submit" value="submit">
+                
+                                        
+            </fieldset>
+        </form>
+    </body>
+</html>
