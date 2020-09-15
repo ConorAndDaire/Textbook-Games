@@ -1,7 +1,8 @@
-html {
-background-color: palegreen
-}
-body{
+    html {
+    background-color: palegreen
+    }
+
+    body{
     background-color: white;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color:3b3b3b;
@@ -9,6 +10,46 @@ body{
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 950px;
     padding: 2em 2em 4em;
-}
+    }
+    
+    .left {
+    border: solid;
+    height;auto;
+    background-color: aliceblue;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palegreen;
+    font-family: sans-serif;
+    }
+
+    li {
+    float: left;
+    }
+
+
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: green;
+    }
+
+    title {
+    margin-left: 200px;
+    }
+    
+    img {
+    margin-left: 200px;
+    }
