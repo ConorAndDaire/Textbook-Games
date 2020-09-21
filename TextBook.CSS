@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: palegreen;
+    background-color: white;
     font-family: sans-serif;
     }
 
@@ -43,10 +43,10 @@
     }
 
     li a:hover {
-    background-color: green;
+    background-color: palegreen;
     }
 
-    title {
+    div.title {
     margin-left: 200px;
     }
     
