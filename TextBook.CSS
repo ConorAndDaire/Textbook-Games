@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: palegreen;
     font-family: sans-serif;
     }
 
@@ -43,14 +43,14 @@
     }
 
     li a:hover {
-    background-color: palegreen;
+    background-color: white;
     }
 
     div.title {
     margin-left: 200px;
     }
     
-    img {
+    div.img {
     margin-left: 200px;
     }
 
