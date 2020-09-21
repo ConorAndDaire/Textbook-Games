@@ -44,6 +44,7 @@
 
     li a:hover {
     background-color: white;
+    color: lightgreen;
     }
 
     div.title {
@@ -56,4 +57,7 @@
 
 div.gif {
     width: 800px;
+}
+p.question {
+    font-size:25px;
 }
