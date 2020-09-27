@@ -15,9 +15,8 @@
     }
     
     .left {
-    border: solid;
-    height;auto;
-    background-color: aliceblue;
+    height:auto;
+    background-color: white;
     }
 
     ul {
@@ -44,8 +43,8 @@
 
     li a:hover {
     background-color: white;
-    color: lightgreen;
-    }
+    color: limegreen;
+}
 
     div.title {
     margin-left: 150px;
@@ -61,4 +60,8 @@ div.gif {
 }
 p.question {
     font-size:25px;
+}
+div.linkstitle{
+    font-size: 25;
+    margin-left: 100px;
 }
