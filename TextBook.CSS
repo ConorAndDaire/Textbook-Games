@@ -32,7 +32,6 @@
     float: left;
     }
 
-
     li a {
     display: block;
     color: black;
@@ -44,7 +43,7 @@
     li a:hover {
     background-color: white;
     color: limegreen;
-}
+    }
 
     div.title {
     margin-left: 150px;
@@ -55,21 +54,37 @@
     margin-left: 200px;
     }
 
-div.gif {
-    margin-left: 40px;
-    width: 800px;
-}
-p.question {
-    font-size:25px;
-}
-div.linkstitle{
-    font-size: 25;
-    margin-left: 100px;
-}
-p.CenteredImage{
-margin-left: 375px;
-height: 20px;
-width: 20px;
-margin-bottom: 70px;
-margin-top: auto;
-}
+    div.gif {
+        margin-left: 40px;
+        width: 800px;
+    }
+
+    p.question {
+        font-size:25px;
+    }
+
+    div.linkstitle {
+        font-size: 25;
+        margin-left: 100px;
+    }
+
+    p.CenteredImage {
+    margin-left: 375px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 70px;
+    margin-top: auto;
+    }
+
+    scratch links {
+    text-align: center;
+    }   
+
+    beanjean {
+    border: solid;    
+    height: 40px;
+    width: 40px;  
+    margin-left: 100px;    
+    }
+
+    
