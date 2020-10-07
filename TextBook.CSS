@@ -76,15 +76,28 @@
     margin-top: auto;
     }
 
-    scratch links {
+    div.scratch links {
     text-align: center;
     }   
 
-    beanjean {
-    border: solid;    
+    div.beanjean {
     height: 40px;
     width: 40px;  
     margin-left: 100px;    
     }
 
-    
+    div.beanjeantext {
+        margin-left: 170px;
+    }
+
+div.mcsunday {
+    height: 90px;
+    width: 90px;  
+    margin-right: 100px;    
+    }
+
+    div.mcsundaytext {
+        margin-right: 170px;
+    }
+
+
