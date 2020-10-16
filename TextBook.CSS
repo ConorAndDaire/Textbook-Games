@@ -93,11 +93,11 @@
 div.mcsunday {
     height: 90px;
     width: 90px;  
-    margin-right: 100px;    
+    margin-left: 100px;  
+    margin-bottom: 140px;
+    margin-top: auto;
     }
 
     div.mcsundaytext {
         margin-right: 170px;
     }
-
-
