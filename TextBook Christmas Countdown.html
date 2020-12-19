@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> TextBook.com | Christmas Countdown</title>
+        <style>
+            
+            body {
+                background-color: white;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+                color:3b3b3b;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0 auto;
+                max-width: 950px;
+                padding: 2em 2em 4em;
+            }
+            
+            html{
+                background-color: palegreen;
+            }
+            
+            div.title {
+                font-family: sans-serif;
+                text-align: center;
+            }
+            
+            div.timer {
+                text-align: center;
+            }
+        
+            div.picture {
+                margin-left: 175px;
+            }
+            
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: palegreen;
+            font-family: sans-serif;
+            }
+
+            li {
+            float: left;
+            }
+
+            li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: white;
+            color: limegreen;
+            }
+            
+            div.logo {
+            margin-left: 400px;
+            }
+
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div class="logo">
+        <img src="Images/rsz_1textbook_studios_logo2%20(1).png">
+        </div>
+        
+        <div class="left">
+            
+            <ul>
+              <div class="home">
+              <li><a href="TextBook%20Home.html">Home</a></li></div>
+              <li><a href="TextBook%20Links.html">Links</a></li>
+              <li><a href="Christmas%20Website.html">Christmas Countdown</a></li>
+              <li style="float:right"><a class="active" href="#about">Sign Up</a></li>
+            </ul>
+        </div>
+        
+    <div class="title">    
+    <h1>
+        TextBook Christmas Countdown
+        </h1>
+        <br> <br>
+        </div>
+        
+        <div class="timer">
+            <h1>
+              <!-- Display the countdown timer in an element -->
+        <p id="demo"></p>
+
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 25, 2020 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+          // Get today's date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+            </h1>    
+        </div>
+        <br> <br>
+        <div class="picture">
+            <img src="https://www.moritzfinedesigns.com/wp-content/uploads/2016/11/christmascountdown.jpg">
+        </div>
+
+    </body>
+</html>
